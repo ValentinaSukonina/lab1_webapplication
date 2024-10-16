@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hiking in Northern Italy</title>
+</head>
+<body>
+    <div class="header-section">
+        <!-- Header content, like a logo or navigation -->
+        <nav class="links-container">
+            <a href="index.html">Home</a>
+            <a href="val_di_fassa.html">Val di Fassa</a>
+            <a href="san_pellegrino.html">San Pellegrino</a>            
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="item1">
+            <img src="img/dolomites_small.jpg" alt="Dolomites mountains">
+            <h1>Hiking trails in the Italian Alps</h1>
+        </div>
+        <div class="content">
+            <div id="area-list">
+                <p>The Italian Alps arch across six regions of Northern Italy:</p>
+                <ul>
+                    <li>Aosta Valley</li>
+                    <li>Piedmont</li>
+                    <li>Lombardy</li>
+                    <li>Trentino - South Tyrol</li>
+                    <li>Veneto</li>
+                    <li>Friuli Venezia Giulia</li>
+                </ul>
+            </div>
+            <div class="item2">
+                <img class="round" src="./img/grand-combin.jpg" alt="Grand-Combin">
+                <p>
+                    The northwest of Italy is dominated by massive glaciated peaks and 
+                    the highest mountains in the alpine chain (e.g. Mont Blanc, Monte Rosa,
+                    Matterhorn) while the northeast of Italy is defined by craggy limestone
+                    massifs.
+                </p>
+            </div>
+            <div class="item3">
+                <p>
+                    The geological and cultural diversity of the Italian Alps is one of
+                    the reasons why hiking in Northern Italy is so interesting.
+                </p>
+            </div>
+            <div class="item4">
+                <img class="round" src="./img/gardeccia_square.jpg" alt="Gardeccia Square">
+                <p>
+                    Exploring the Italian Alps is an extraordinary experience regardless 
+                    of your chosen path. The mountains are breathtaking, offering a rich
+                     tapestry of cultural and historical insights into Italian heritage. 
+                     Each area of the Italian Alps boasts unique characteristics, yet all
+                      share the same majestic Alpine backdrop.
+                </p>
+            </div>
+            <div class="item3">
+                <p>
+                    If it's your first time hiking in the Italian Alps, there's no need
+                     to worry over choosing the perfect spot. Every region offers a 
+                     remarkable experience, making any choice a great one for exploring
+                      the breathtaking landscapes of the Italian Alps.
+                </p>
+            </div>
+        </div> <!-- Close the .content div here -->
+            <div class form-area>          
+
+            <div class="form-box">
+                <form action="/action_page.php" onsubmit="submitForm(event)">
+                    <div>
+                        <p>Share Your Hiking Stories! <br> </p>
+                        <p>
+                            We'd love to hear about your adventures in the Alps.
+                         </p>
+                        <p> Leave a comment below and help inspire fellow hikers!</p> <br>
+                        </p>
+                    </div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="fullname" placeholder="Your name..." required>
+            
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="usrcomment" placeholder="Enter text here..." maxlength="150" required></textarea>
+                    <div id="charCount"></div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear Form">                    
+                </form>
+            </div> 
+                
+        </div> <!-- Close the .form-area div here -->
+
+            <div id="result">
+                <!-- The input data will be displayed here -->
+            </div>
+        
+        <div class="item6">
+            <button id="favoriteBtn" class="btnfavorite">Click here to see our favorite hikes</button>
+            <div id="favoriteInfo" class="item7"> 
+                <h2></h2> 
+                <p></p><br>
+                <h2></h2> 
+                <p></p><br>
+                <h2></h2> 
+                <p></p><br>       
+            </div>  
+            </div>
+        </div> <!-- Close the .container div here -->
+
+    <footer>
+        <p>&copy; 2024 VTrana. All rights reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>     
+</body>
+</html>
