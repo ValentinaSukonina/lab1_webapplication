@@ -8,7 +8,7 @@ This is a web page application that utilizes **JavaScript**, **HTML**, and **CSS
 
 ## Technologies Used
 - **HTML5**: Markup language for structuring the web page.
-- **CSS3**: Styling for a visually appealing design.
+- **CSS**: Styling for a visually appealing design.
 - **JavaScript**: Adds interactivity to the web page.
 
 ## Installation
